@@ -1,4 +1,14 @@
+@font-face {
+    font-family: 'Merriweather-Regular'; /* Name der Schriftart */
+    src: url('Merriweather-Regular.ttf') format('ttf'); /* Pfad zur heruntergeladenen Schriftart */
+    /* Weitere Angaben wie font-weight oder font-style können hier hinzugefügt werden, wenn nötig */
+}
+
 * { 
     margin: 0; 
-    padding: 0; 
+    padding: 0;
 } 
+
+span {
+    font-family: 'Merriweather-Regular';
+}
